@@ -6,13 +6,13 @@ let proxyIP = '';
 //let sub = '';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
 let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
-let subProtocol = 'https';
+let subProtocol = 'http';//原来是https
 let subEmoji = 'true';
 let socks5Address = '';
 let parsedSocks5Address = {};
 let enableSocks = false;
 
-let noTLS = 'false';
+let noTLS = 'true';//tls notls仅支持works
 const expire = 4102329600;//2099-12-31
 let proxyIPs;
 let socks5s;
